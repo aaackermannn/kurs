@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="logotip.png" type="image/x-icon">
+	<title>Raven Perfumery</title>
+
+	<link rel="stylesheet" href="cssindex/main.css">
+
+	<script src="libs1/gsap/gsap.min.js" defer></script>
+	<script src="libs1/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="libs1/gsap/ScrollSmoother.min.js" defer></script>
+
+	<script src="js1/app.js" defer></script>
+
+	<style>
+		.button {
+			display: inline-block;
+			padding: 10px 20px;
+			font-size: 18px;
+			font-weight: bold;
+			color: #fff;
+			background-color: #333;
+			border: none;
+			border-radius: 5px;
+			text-decoration: none;
+			transition: transform 0.3s, background-color 0.3s;
+			position: fixed;
+			bottom: 20px;
+			left: 50%;
+			transform: translateX(-50%);
+			z-index: 1000;
+		}
+
+		.button:hover {
+			transform: translateX(-50%) scale(1.1);
+			background-color: #555;
+		}
+	</style>
+
+</head>
+<body>
+
+	<div class="wrapper">
+		<div class="content">
+
+			<header class="main-header">
+				<div class="layers">
+					<div class="layer__header">
+						<div class="layers__caption">Окунитесь в волшебство вместе с</div>
+						<div class="layers__title">Raven</div>
+					</div>
+					<div class="layer layers__base" style="background-image: url(img/layer-base.png);"></div>
+					<div class="layer layers__middle" style="background-image: url(img/layer-middle.png);"></div>
+					<div class="layer layers__front" style="background-image: url(img/layer-front.png);"></div>
+				</div>
+			</header>
+		
+			<article class="main-article" style="background-image: url(img/dungeon.jpg);">
+				<div class="main-article__content">
+					<p class="main-article__paragraph">Каждая капля нашего парфюма — это история, рожденная в природе. Мы выращиваем деревья специально для создания ароматов, чтобы подарить вам чистоту, экологичность и уникальность. Наши духи — это не просто продукт, это символ вашей связи с природой.</p>
+				</div>
+
+			</article>
+
+		</div>
+	</div>
+
+	
+	<a href="about.html" class="button">Перейти к сайту</a>
+
+</body>
+</html>
+
